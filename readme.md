@@ -1,4 +1,4 @@
-# Star Tracker Program using Machine Learning
+# Satellite Imagery
 
 ![GitHub stars](https://img.shields.io/github/stars/your-username/repo-name?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/your-username/repo-name) ![GitHub license](https://img.shields.io/github/license/your-username/repo-name)
 
@@ -52,26 +52,10 @@ Welcome to the Star Tracker program! This repository contains a star tracking ap
 
 You can customize the program's behavior and settings by modifying the `config.yaml` file. This file allows you to specify parameters such as detection thresholds, visualization options, and file output formats.
 
-## Contributing
-
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please submit an issue or create a pull request. For major changes, please open an issue first to discuss your proposed modifications.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-We would like to express our gratitude to the following resources and libraries that made this project possible:
-
-- Library 1: [Link](https://example.com)
-- Library 2: [Link](https://example.com)
-- Dataset 1: [Link](https://example.com)
-- Dataset 2: [Link](https://example.com)
 
 ## Contact
 
-For any inquiries or questions, please contact [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or questions, please contact [ajwan_khoury2000@hotmail.com](mailto:ajwan_khoury2000@hotmail.com).
 
 ---
 
