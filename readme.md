@@ -19,13 +19,13 @@ Welcome to the Star Tracker program! This repository contains a star tracking ap
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/repo-name.git
+   git clone https://github.com/AjwanKhoury/Satellite-Imagery
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd repo-name
+   cd Satellite-Imagery
    ```
 
 3. Install the required dependencies:
