@@ -1,60 +1,78 @@
-Star Tracker Program using Machine Learning
-GitHub stars GitHub last commit GitHub license
+# Star Tracker Program using Machine Learning
+
+![GitHub stars](https://img.shields.io/github/stars/your-username/repo-name?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/your-username/repo-name) ![GitHub license](https://img.shields.io/github/license/your-username/repo-name)
 
 Welcome to the Star Tracker program! This repository contains a star tracking application that utilizes machine learning techniques to analyze and track stars in astronomical images. With this program, you can identify and monitor celestial objects with greater accuracy and efficiency.
 
-Features
-Star Detection: The program employs advanced machine learning algorithms to detect stars in astronomical images. It leverages the power of computer vision to locate and classify stars accurately, even in noisy or crowded images.
+## Features
 
-Tracking and Cataloging: Once the stars are detected, the program tracks their positions over time. It provides detailed information about each star, such as its coordinates, magnitude, and any associated data from existing astronomical catalogs.
+- **Star Detection**: The program employs advanced machine learning algorithms to detect stars in astronomical images. It leverages the power of computer vision to locate and classify stars accurately, even in noisy or crowded images.
 
-Data Visualization: The program visualizes the tracked star positions on celestial maps, enabling you to explore the distribution of stars and study their movements. It also generates plots and graphs to visualize various properties and trends in the data.
+- **Tracking and Cataloging**: Once the stars are detected, the program tracks their positions over time. It provides detailed information about each star, such as its coordinates, magnitude, and any associated data from existing astronomical catalogs.
 
-Customizability: The program offers various parameters and settings that you can adjust to suit your specific needs. You can fine-tune the detection thresholds, customize the visualization options, and incorporate additional algorithms or techniques as required.
+- **Data Visualization**: The program visualizes the tracked star positions on celestial maps, enabling you to explore the distribution of stars and study their movements. It also generates plots and graphs to visualize various properties and trends in the data.
 
-Installation
-Clone the repository:
+- **Customizability**: The program offers various parameters and settings that you can adjust to suit your specific needs. You can fine-tune the detection thresholds, customize the visualization options, and incorporate additional algorithms or techniques as required.
 
-bash
-Copy code
-git clone https://github.com/your-username/repo-name.git
-Navigate to the project directory:
+## Installation
 
-bash
-Copy code
-cd repo-name
-Install the required dependencies:
+1. Clone the repository:
 
-Copy code
-pip install -r requirements.txt
-Usage
-Prepare your astronomical images in a compatible format (e.g., FITS, JPEG, PNG).
+   ```
+   git clone https://github.com/your-username/repo-name.git
+   ```
 
-Run the star tracking program:
+2. Navigate to the project directory:
 
-css
-Copy code
-python star_tracker.py --input <path_to_images_directory>
-Replace <path_to_images_directory> with the path to the directory containing your astronomical images.
+   ```
+   cd repo-name
+   ```
 
-Explore the results! The program will generate visualizations, reports, and any other specified outputs in the program's configuration.
+3. Install the required dependencies:
 
-Configuration
-You can customize the program's behavior and settings by modifying the config.yaml file. This file allows you to specify parameters such as detection thresholds, visualization options, and file output formats.
+   ```
+   pip install -r requirements.txt
+   ```
 
-Contributing
+## Usage
+
+1. Prepare your astronomical images in a compatible format (e.g., FITS, JPEG, PNG).
+
+2. Run the star tracking program:
+
+   ```
+   python star_tracker.py --input <path_to_images_directory>
+   ```
+
+   Replace `<path_to_images_directory>` with the path to the directory containing your astronomical images.
+
+3. Explore the results! The program will generate visualizations, reports, and any other specified outputs in the program's configuration.
+
+## Configuration
+
+You can customize the program's behavior and settings by modifying the `config.yaml` file. This file allows you to specify parameters such as detection thresholds, visualization options, and file output formats.
+
+## Contributing
+
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please submit an issue or create a pull request. For major changes, please open an issue first to discuss your proposed modifications.
 
-License
-This project is licensed under the MIT License.
+## License
 
-Acknowledgments
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
 We would like to express our gratitude to the following resources and libraries that made this project possible:
 
-Library 1: Link
-Library 2: Link
-Dataset 1: Link
-Dataset 2: Link
-Contact
-For any inquiries or questions, please contact your-email@example.com.
+- Library 1: [Link](https://example.com)
+- Library 2: [Link](https://example.com)
+- Dataset 1: [Link](https://example.com)
+- Dataset 2: [Link](https://example.com)
 
+## Contact
+
+For any inquiries or questions, please contact [your-email@example.com](mailto:your-email@example.com).
+
+---
+
+Thank you for your interest in the Star Tracker program! We hope this tool enhances your star tracking and analysis endeavors. We appreciate your feedback and contributions to make this project even better. Happy exploring the cosmos!
