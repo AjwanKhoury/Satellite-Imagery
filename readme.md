@@ -1,6 +1,6 @@
 # Satellite Imagery
 
-![GitHub stars](https://img.shields.io/github/stars/your-username/repo-name?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/your-username/repo-name) ![GitHub license](https://img.shields.io/github/license/your-username/repo-name)
+![GitHub stars](https://img.shields.io/github/stars/AjwanKhoury/Satellite-Imagery?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/AjwanKhoury/Satellite-Imagery) ![GitHub license](https://img.shields.io/github/license/AjwanKhoury/Satellite-Imagery)
 
 Welcome to the Star Tracker program! This repository contains a star tracking application that utilizes machine learning techniques to analyze and track stars in astronomical images. With this program, you can identify and monitor celestial objects with greater accuracy and efficiency.
 
