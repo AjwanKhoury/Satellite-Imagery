@@ -95,7 +95,7 @@ The last capability of image compression was successfully implemented for every 
 \
 ![image](https://github.com/AjwanKhoury/Satellite-Imagery/assets/73795045/d7f8872b-a13c-4d6f-9dc8-3bbd34eaff8b) \
 \
-On the left is the original image, and on the right is the compressed image. Overall, we were able to reduce the image by 62.19% of its original size, bringing it down to a total size of 14.16KB without compromising its quality. It's difficult to distinguish between the image on the left (not compressed) and the compressed image on the right. \
+On the left is the original image, and on the right is the compressed image. Overall, we were able to reduce the image by 62.19% of its original size, bringing it down to a total size of 14.16KB without compromising its quality. It's difficult to distinguish between the image on the left (not compressed) and the compressed image on the right. 
 
 ## Findings
 Using image processing techniques and deep learning, we have successfully implemented a useful tool that can handle satellite images, classify them into classes, extract important regions, and compress them. Throughout the project, we learned new technologies and capabilities that can be highly useful for specific industries that utilize imaging. We discovered that with deep learning, it is possible to relatively accurately catalog images if the model is well-defined and sufficient training data is available. Additionally, we found that it is possible to compress images while preserving their quality to some extent. Furthermore, we learned how to extract interesting parts from the images. In our project, we decided that a water source is an interesting area, but we could have also chosen that grasslands, fields, or desert and sandy areas are interesting regions and perform the cutting accordingly. There are numerous extensions and applications that can be performed on the current project, as it is a fascinating field with almost endless possibilities in almost any aspect of our lives.
@@ -106,5 +106,3 @@ Using image processing techniques and deep learning, we have successfully implem
 For any inquiries or questions, please contact [ajwan_khoury2000@hotmail.com](mailto:ajwan_khoury2000@hotmail.com).
 
 ---
-
-Thank you for your interest in the Star Tracker program! We hope this tool enhances your star tracking and analysis endeavors. We appreciate your feedback and contributions to make this project even better. Happy exploring the cosmos!
