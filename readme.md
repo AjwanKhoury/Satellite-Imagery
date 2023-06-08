@@ -70,14 +70,12 @@ To implement the final capability of compressing images to a size of 10-20KB, we
 ## Results:
 
 For the initial capability of image classification, we were able to achieve an accuracy of over 90% for the model we built. This is a high level of accuracy that satisfies us relative to the computational limitations of the task's computer. Of course, we can further improve this in the future by adding additional training images and expanding the model to larger datasets. \
-_Performing classification, for example, on an uploaded image that challenges the model:
-_\
+_Performing classification, for example, on an uploaded image that challenges the model:_\
 ![image](https://github.com/AjwanKhoury/Satellite-Imagery/assets/73795045/91a2f024-8682-4b08-a54d-7b0de0080d33) \
 \
 It can be seen that the model successfully classified the image as a picture of planet Earth with illuminated cities. Of course, there are other categories that the model can classify, such as images of stars, images of the Earth itself in space, and images that specifically show the Earth/ocean without a space background. \
 In the second and third capabilities, which deal with identifying interesting areas in the image and ranking them based on their level of interest, we were able to achieve over 90% accuracy. The tool is able to take an image and mark the water areas appearing in the image, while calculating the percentage of water within the entire image.\
-*Classification example: \
-\
+_Classification example:_ \
 ![image](https://github.com/AjwanKhoury/Satellite-Imagery/assets/73795045/cf59e67d-4965-463c-bacb-92e9276472df) \
 \
 The sorting capabilities also work excellently. After running the sorting function, we received a sorting of images from the lowest percentage of water sources to the highest percentage. An example of the first three images: \
