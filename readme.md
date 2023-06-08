@@ -53,20 +53,6 @@ To implement the final capability of compressing images to a size of 10-20KB, we
    pip install -r requirements.txt
    ```
 
-## Usage
-
-1. Prepare your astronomical images in a compatible format (e.g., FITS, JPEG, PNG).
-
-2. Run the star tracking program:
-
-   ```
-   python star_tracker.py --input <path_to_images_directory>
-   ```
-
-   Replace `<path_to_images_directory>` with the path to the directory containing your astronomical images.
-
-3. Explore the results! The program will generate visualizations, reports, and any other specified outputs in the program's configuration.
-
 ## Results:
 
 For the initial capability of image classification, we were able to achieve an accuracy of over 90% for the model we built. This is a high level of accuracy that satisfies us relative to the computational limitations of the task's computer. Of course, we can further improve this in the future by adding additional training images and expanding the model to larger datasets. \
@@ -91,7 +77,8 @@ Image 3 - Ranking 2 - 17.6% water from the entire image. \
 \
 ![image](https://github.com/AjwanKhoury/Satellite-Imagery/assets/73795045/6e284f2e-20cf-4c13-9e78-7d8913e3058a) \
 \
-The last capability of image compression was successfully implemented for every loaded image. An example of image compression: \
+The last capability of image compression was successfully implemented for every loaded image. \
+_An example of image compression:_ \
 \
 ![image](https://github.com/AjwanKhoury/Satellite-Imagery/assets/73795045/d7f8872b-a13c-4d6f-9dc8-3bbd34eaff8b) \
 \
