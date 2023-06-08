@@ -71,29 +71,32 @@ To implement the final capability of compressing images to a size of 10-20KB, we
 
 For the initial capability of image classification, we were able to achieve an accuracy of over 90% for the model we built. This is a high level of accuracy that satisfies us relative to the computational limitations of the task's computer. Of course, we can further improve this in the future by adding additional training images and expanding the model to larger datasets. \
 _Performing classification, for example, on an uploaded image that challenges the model:_\
+\
 ![image](https://github.com/AjwanKhoury/Satellite-Imagery/assets/73795045/91a2f024-8682-4b08-a54d-7b0de0080d33) \
 \
 It can be seen that the model successfully classified the image as a picture of planet Earth with illuminated cities. Of course, there are other categories that the model can classify, such as images of stars, images of the Earth itself in space, and images that specifically show the Earth/ocean without a space background. \
 In the second and third capabilities, which deal with identifying interesting areas in the image and ranking them based on their level of interest, we were able to achieve over 90% accuracy. The tool is able to take an image and mark the water areas appearing in the image, while calculating the percentage of water within the entire image.\
+\
 _Classification example:_ \
+\
 ![image](https://github.com/AjwanKhoury/Satellite-Imagery/assets/73795045/cf59e67d-4965-463c-bacb-92e9276472df) \
 \
 The sorting capabilities also work excellently. After running the sorting function, we received a sorting of images from the lowest percentage of water sources to the highest percentage. An example of the first three images: \
 First image - Ranking 0, 16.65% water from the entire image. \
 \
 ![image](https://github.com/AjwanKhoury/Satellite-Imagery/assets/73795045/742fd011-b02d-4fa4-b6f6-007a3810ea92) \
-\ 
-Image 2 - Ranking 1 - 17.24% water from the entire image.\ 
+Image 2 - Ranking 1 - 17.24% water from the entire image.
 \
 Image 3 - Ranking 2 - 17.6% water from the entire image. \
 \
 ![image](https://github.com/AjwanKhoury/Satellite-Imagery/assets/73795045/6e284f2e-20cf-4c13-9e78-7d8913e3058a) \
 \
 The last capability of image compression was successfully implemented for every loaded image. An example of image compression: \
+\
 ![image](https://github.com/AjwanKhoury/Satellite-Imagery/assets/73795045/d7f8872b-a13c-4d6f-9dc8-3bbd34eaff8b) \
 \
 On the left is the original image, and on the right is the compressed image. Overall, we were able to reduce the image by 62.19% of its original size, bringing it down to a total size of 14.16KB without compromising its quality. It's difficult to distinguish between the image on the left (not compressed) and the compressed image on the right. \
-\
+
 ## Findings
 Using image processing techniques and deep learning, we have successfully implemented a useful tool that can handle satellite images, classify them into classes, extract important regions, and compress them. Throughout the project, we learned new technologies and capabilities that can be highly useful for specific industries that utilize imaging. We discovered that with deep learning, it is possible to relatively accurately catalog images if the model is well-defined and sufficient training data is available. Additionally, we found that it is possible to compress images while preserving their quality to some extent. Furthermore, we learned how to extract interesting parts from the images. In our project, we decided that a water source is an interesting area, but we could have also chosen that grasslands, fields, or desert and sandy areas are interesting regions and perform the cutting accordingly. There are numerous extensions and applications that can be performed on the current project, as it is a fascinating field with almost endless possibilities in almost any aspect of our lives.
 
