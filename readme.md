@@ -52,6 +52,10 @@ To implement the final capability of compressing images to a size of 10-20KB, we
    ```
    pip install -r requirements.txt
    ```
+   
+   
+   ![image](https://github.com/AjwanKhoury/Satellite-Imagery/assets/58775369/fa1e54f8-449a-4895-8fea-c0e43ae71ed0)
+
 
 ## Results:
 
